@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+/* ADMIN */
+
+body {
+	color: black;
+}
+
+div#container {
+	max-width: 1280px;
+	margin: auto;
+	background: white;
+}

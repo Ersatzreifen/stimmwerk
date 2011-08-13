@@ -1,0 +1,1 @@
+<div class="notice"><?php print $message; ?></div>

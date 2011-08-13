@@ -1,0 +1,346 @@
+@CHARSET "UTF-8";
+
+body {
+	color: black;
+	background-image:url('/img/comicreddots.jpg');
+	margin:20px;
+	font-family: 'Comic Sans MS',sans-serif;
+}
+
+div#container {
+	background-image:url('/img/backpaper.png');
+	border: 1px solid #000;
+	clear: both;
+	color: #666;
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 20px;
+	text-shadow: 0 -1px #fff;
+	width: 940px;
+	-webkit-box-shadow: 10px 10px 5px #333;
+	   -moz-box-shadow: 10px 10px 5px #333;
+	     -o-box-shadow: 10px 10px 5px #333;
+	        box-shadow: 10px 10px 5px #333;
+	-webkit-border-radius: 5px;
+		 -moz-border-radius: 5px;
+	 				border-radius: 5px;
+
+}
+
+
+/* headimage */
+div.headimage {
+	background-image:url('/img/headimage_background.png');
+	border-top: 0px;
+	border-bottom: 2px;
+	border-left: 2px;
+	border-right: 2px;
+	border-style:solid;
+	border-color:#000000;
+	height: 75px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+
+}
+
+div.headimage img.headimage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* topnavigation */
+div.topnav {
+    position: relative;
+    width: 918px;
+    padding: 9px;
+    border: 1px solid black;
+    background-color: #ffec61;
+    z-index: 20;
+  }
+
+  div.topnav div {
+  	clear: left;
+  }
+
+	ul.navbar, div.comments div ul#commentsnavbar {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  ul.navbar li, div.comments div ul#commentsnavbar li {
+    list-style: none;
+    float: left;  /* ohne width - nach CSS 2.1 erlaubt */
+    position: relative;
+    margin: 0px 5px 0px 0px;
+    padding: 0;
+    -webkit-text-shadow: 3px 3px 3px #333 ;
+  	   -moz-text-shadow: 3px 3px 3px #333 ;
+  	     -o-text-shadow: 3px 3px 3px #333 ;
+  	      	text-shadow: 3px 3px 5px #333 ;
+    text-transform: uppercase;
+
+  }
+
+  ul.navbar li ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 1.6em;
+    left: -5px;
+    display: none;  /* Unternavigation ausblenden */
+    text-align: left;
+  }
+
+  ul.navbar li:hover ul {
+    display: block;  /* Unternavigation in modernen Browsern einblenden */
+  }
+  ul.navbar li ul li {
+    float: none;
+    display: block;
+    margin-bottom: 0.2em;
+  }
+
+  ul.navbar a, ul.navbar span {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333333;
+    margin: 5px;
+  }
+
+  ul.navbar a:hover, ul.navbar span{
+    color: #EC2100;
+
+  }
+
+	ul.navbar li div ul li {
+		margin-left: 10px;
+	}
+
+  ul.navbar li ul span {  /* aktuelle Unterseite kennzeichnen */
+    background-color: maroon;
+  }
+
+
+/* content */
+
+div#container div#content {
+	clear: both;
+	margin-top: 50px;
+}
+
+/* contact */
+div#container div#content div.contact div{
+	padding: 10px;
+	-webkit-box-shadow: none !important;
+	   -moz-box-shadow: none !important;
+	     -o-box-shadow: none !important;
+	        box-shadow: none !important;
+	width: 918px;
+	margin-top: 12px;
+}
+
+div#container div#content div.contact form div label {
+	margin-left: 5px;
+	position: absolute;
+
+}
+
+
+
+
+div#container div#content div.contact form div input {
+	position: absolute;
+	background-color: #006633;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 2px;
+	border-bottom-color: white;
+	border-style: solid;
+	border-left: 0px;
+	color: #EEEEEE;
+  text-shadow: 3px 3px 5px #333333;
+	font-size: 18px;
+	width: 660px;
+	border: 1px solid;
+	margin-left: 180px;
+	z-index: 2;
+}
+
+div#container div#content div.contact form div input.submit {
+	position: relative;
+	background-color: red;
+	margin-top: 160px;
+}
+
+
+div#container div#content div.contact form div textarea {
+	position: absolute;
+	width: 660px;
+	background-color: #006633;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 2px;
+	border-bottom-color: white;
+	border-style: solid;
+	border-left: 0px;
+	color: #EEEEEE;
+  text-shadow: 3px 3px 5px #333333;
+	font-size: 18px;
+	text-decoration: underline;
+	font-weight:bold;
+	margin-left: 180px;
+	z-index: 1;
+}
+
+div.contact div.error {
+	display: inline;
+	border: 1px solid red;
+	width: 200px !important;
+	color: #EC2100;
+	text-shadow: 1px 1px 1px #333;
+	margin-left: 540px;
+	z-index: 100;
+}
+
+/* */
+
+div#infobox {
+	left: -1px;
+  position: absolute;
+  top: -1px;
+}
+
+a#bandtitle {
+	position: relative;
+	color: #ec2100;
+  display: block;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 65px;
+  -webkit-text-shadow: 3px 3px 5px #333 ;
+  	 -moz-text-shadow: 3px 3px 5px #333 ;
+  	   -o-text-shadow: 3px 3px 5px #333 ;
+  	    	text-shadow: 3px 3px 5px #333 ;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* newsbox */
+div#container div#newsbox {
+	float: right;
+	background-image: url('/img/newsboxbackground.jpg');
+	opacity: 1;
+	position: relative;
+	margin-top: 40px;
+	right: 20px;
+	width: 180px;
+	padding: 10px;
+	border: 6px solid #333;
+	-webkit-border-radius: 5px;
+		 -moz-border-radius: 5px;
+	 				border-radius: 5px;
+	-webkit-box-shadow: 3px 3px 5px #333;
+	   -moz-box-shadow: 3px 3px 5px #333;
+	     -o-box-shadow: 3px 3px 5px #333;
+	        box-shadow: 3px 3px 5px #333;
+}
+
+div#container div#newsbox div.newsbox_title {
+	background-color: red;
+}
+
+/* */
+div#container div#bodybox, div#container div#content div.contact {
+	clear: both;
+	margin: 20px 0px 20px 0px;
+	position: relative;
+	padding: 10px;
+	z-index: 0;
+	border: 6px solid #333;
+	color: #EEEEEE;
+  text-shadow: 3px 3px 5px #333333;
+  background: none repeat scroll 0 0 #006633;
+	-moz-transform: rotate(0.7deg);
+	-webkit-box-shadow: 3px 3px 5px #333;
+	   -moz-box-shadow: 3px 3px 5px #333;
+	     -o-box-shadow: 3px 3px 5px #333;
+	        box-shadow: 3px 3px 9px #333;
+	-webkit-border-radius: 5px;
+		 -moz-border-radius: 5px;
+	 				border-radius: 5px;
+}
+
+div#container div#bodybox  p {
+	width: 660px;
+	color: #EEE;
+	-webkit-text-shadow: 3px 3px 3px #333 ;
+  	 -moz-text-shadow: 3px 3px 3px #333 ;
+       -o-text-shadow: 3px 3px 3px #333 ;
+        	text-shadow: 3px 3px 5px #333 ;
+}
+
+
+div.hidden {
+	display: none;
+}
+
+
+img {
+    -moz-transform: rotate(-3deg);
+    background: none repeat scroll 0 0 #EEE;
+    border: 1px solid #CCC;
+    border-radius: 2px 2px 2px 2px;
+    -webkit-box-shadow: 3px 3px 5px #333;
+	     -moz-box-shadow: 3px 3px 5px #333;
+	       -o-box-shadow: 3px 3px 5px #333;
+	          box-shadow: 3px 3px 5px #333;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding: 6px;
+
+}
+
+/* comments */
+
+div#container div#content div.comments {
+	border: 1px solid red;
+	padding: 10px;
+}
+
+div#container div#content div.comments div.commentbox {
+		clear: both;
+
+    border: 1px solid #CCC;
+    border-radius: 2px 2px 2px 2px;
+    -webkit-box-shadow: 3px 3px 5px #333;
+	     -moz-box-shadow: 3px 3px 5px #333;
+	       -o-box-shadow: 3px 3px 5px #333;
+	          box-shadow: 3px 3px 5px #333;
+}
+
+
+div#container div#content div.comments div.commentbox ul.commentchild {
+	border: 1px solid #CCC;
+}
+
+
+.altrow {
+	background-color: #DDD;
+}
