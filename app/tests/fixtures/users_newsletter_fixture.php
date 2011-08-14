@@ -1,7 +1,7 @@
 <?php
 /* UsersNewsletter Fixture generated on: 
 Warning: date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Berlin' for 'CEST/2.0/DST' instead in /Users/rudy/Sites/stimmwerk/cake/console/templates/default/classes/fixture.ctp on line 24
-2011-08-12 16:28:53 : 1313159333 */
+2011-08-14 20:09:30 : 1313345370 */
 class UsersNewsletterFixture extends CakeTestFixture {
 	var $name = 'UsersNewsletter';
 
@@ -20,8 +20,8 @@ class UsersNewsletterFixture extends CakeTestFixture {
 			'id' => 1,
 			'user_id' => 1,
 			'newsletter_id' => 1,
-			'created' => '2011-08-12 16:28:53',
-			'modified' => '2011-08-12 16:28:53'
+			'created' => '2011-08-14 20:09:30',
+			'modified' => '2011-08-14 20:09:30'
 		),
 	);
 }

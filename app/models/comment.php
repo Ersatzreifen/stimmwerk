@@ -1,7 +1,6 @@
 <?php
 class Comment extends AppModel {
 	var $name = 'Comment';
-	var $order = array('Comment.created');
 	var $validate = array(
 		'user_id' => array(
 			'numeric' => array(

@@ -9,7 +9,6 @@ class PagesController extends AppController {
 
 	function display() {
 		$this->set('tourdates', $this->Tourdate->find('all'));
-
 	}
 
 	function admin_index() {

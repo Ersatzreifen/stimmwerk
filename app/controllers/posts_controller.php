@@ -2,6 +2,7 @@
 class PostsController extends AppController {
 
 	var $name = 'Posts';
+	var $helpers = array('Ajax', 'Time', 'Text');
 
 	function index() {
 		$this->Post->recursive = 0;

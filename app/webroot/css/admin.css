@@ -1,5 +1,3 @@
-@CHARSET "UTF-8";
-
 /* ADMIN */
 
 body {
@@ -10,4 +8,215 @@ div#container {
 	max-width: 1280px;
 	margin: auto;
 	background: white;
+}
+
+h1 {
+	font-size: 36px;
+	padding: 10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: -1px;
+	color: black;
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+}
+
+h1 span {
+	float: right;
+	font-size: 14px;
+}
+
+.cl {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+}
+
+div.index, div.actions, div.form {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.index a {
+	text-decoration: none;
+	color: #68bee6;
+}
+
+div.index h2 {
+	font-weight: bold;
+	font-size: 24px;
+	padding: 5px;
+	letter-spacing: -1px;
+}
+
+div.index td, div.index th {
+	padding: 5px 0;
+}
+
+div.index th {
+	background: #68bee6;
+	color: white;
+}
+
+div.index th.actions {
+	font-weight: bold;
+	text-align: center;
+}
+
+div.index th a {
+	color: white;
+}
+
+div.index td {
+	padding: 5px;
+}
+
+div.index table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+div.actions {
+	background: white;
+	padding: 5px;
+}
+
+
+
+div.actions h3 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+div.actions a {
+	display: block;
+	width: 150px;
+	padding: 5px;
+	margin-left: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+div.actions a:hover {
+	background: black;
+}
+
+div.paging {
+	padding: 5px;
+}
+
+div.form {
+	background: white;
+}
+
+div.form legend {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+div.form label {
+	display: block;
+	width: 160px;
+	float: left;
+	padding: 3px 0;
+}
+
+div.form input, div.form select, div.form textarea {
+	border: 1px solid #ccc;
+	padding: 1px;
+	width: 600px;
+	margin-bottom: 10px;
+}
+
+div.form div.checkbox input {
+	width: 20px;
+	margin-left: 160px;
+}
+
+div.form div.checkbox label {
+	margin-top: -3px;
+	margin-bottom: 30px;
+}
+
+div.submit input {
+	margin-left: 160px;
+}
+
+th.c, td.c {
+	text-align: center;
+}
+
+div.index {
+	background: white;
+	color: black;
+}
+
+table {
+	width: 100%;
+}
+
+table td {
+	line-height: 32px;
+}
+
+table td img {
+	padding-top: 8px;
+}
+
+table td.actions a {
+	line-height: 1em;
+	padding: 4px 10px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#ddd));
+	border: 1px solid #aaa;
+	margin: 2px 0 0 10px;
+	float: right;
+	-webkit-box-shadow: 1px 1px 0 #ddd;
+}
+
+table td.actions a img {
+	padding: 0;
+	margin: 0;
+}
+
+ul#adminnav li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+ul#adminnav li a {
+	font-size: 14px;
+	padding: 3px 40px;
+	margin-right: 10px;
+	background-image: -moz-linear-gradient(-90deg, #f8f8f8 , #ddd );
+	background-image: -webkit-gradient(linear, 0 top, 0 bottom, from( #f8f8f8 ), to( #ddd ));
+	border: 1px solid #ccc;
+	text-decoration: none;
+}
+
+div.index {
+	margin: 0;
+	padding: 10px;
+	width: 1260px;
+	border: 0;
+	float: none;
+}
+
+div.comments div {
+	margin-left: 160px;
+}
+
+a.new {
+	float: right;
+	line-height: 30px;
+}
+
+div.error  {
+	color: red;
+	margin: 10px;
+}
+
+div.products table small {
+	font-size: 10px;
 }
